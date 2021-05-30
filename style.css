@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #011627;
+    color:darkred;
+    text-align: center;
+    background-image: url(./img/cc.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Allura', cursive;
+}
+body:hover{
+    color:deeppink ;
+}
+body:hover span{
+    color: forestgreen;
+}
+body span{
+    color:blueviolet;
+    font-family: 'Rock Salt', cursive;
+    
+}
+h1{
+    font-size: 45px;
+}
+
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-style: none;
+
+}
+
+.btn:hover{
+    background-color:palegreen;
+    cursor: pointer;
+}
